@@ -8,3 +8,11 @@
 [31-Jul-2017 12:33:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1538
 [31-Jul-2017 12:33:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/wordpress/wp-includes/wp-db.php on line 1568
 [31-Jul-2017 12:33:58 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1568
+[01-Aug-2017 12:06:37 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'wocker'@'localhost' (using password: NO) in /var/www/wordpress/wp-includes/wp-db.php on line 1538
+[01-Aug-2017 12:06:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/wordpress/wp-includes/wp-db.php on line 1568
+[01-Aug-2017 12:06:37 UTC] PHP Warning:  mysql_connect(): Access denied for user 'wocker'@'localhost' (using password: NO) in /var/www/wordpress/wp-includes/wp-db.php on line 1568
+[01-Aug-2017 12:09:03 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'wocker'@'localhost' (using password: NO) in /var/www/wordpress/wp-includes/wp-db.php on line 1538
+[01-Aug-2017 12:09:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/wordpress/wp-includes/wp-db.php on line 1568
+[01-Aug-2017 12:09:03 UTC] PHP Warning:  mysql_connect(): Access denied for user 'wocker'@'localhost' (using password: NO) in /var/www/wordpress/wp-includes/wp-db.php on line 1568
+[01-Aug-2017 12:17:00 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"10.0.23.0","locale":"en_US","timezone":"Asia\/Hong_Kong"}},"response_code":200,"response_body":{"location":{"ip":"168.70.4.142"},"events":"0 events trimmed."}}
+[02-Aug-2017 05:33:14 UTC] [opinionstage plugin] successfully registered javascript asset 'shortcodes'
